@@ -1,0 +1,45 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar {
+    float: left;
+    color: white;
+    background-color: blue;
+    width: 25%;
+    height: 880px;
+    margin: 0 auto;
+    position: relative;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 15% auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+p {
+    line-height: 1;
+    margin-top: 4px;
+    margin-bottom: 1rem;
+}
+
+span {
+    margin-right: 2rem;
+}

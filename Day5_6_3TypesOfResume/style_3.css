@@ -1,0 +1,80 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.infor-row {
+    height: 140px;
+    width: 90%;
+}
+
+.infor-row-head {
+    float: left;
+    background-color: lightgrey;
+    width: 15%;
+    height: 98%;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+h1 {
+    margin-bottom: 0;
+    background-color: grey;
+    color: white;
+    padding: 1rem;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+h4 {
+    display: inline;
+    margin-top: 4px;
+}
+
+p {
+    display: inline;
+    line-height: 1;
+    margin-top: 4px;
+}
+
+span {
+    margin-right: 2rem;
+}
+
+/* 10 % + 5 * 18% */
+/*
+Problem:
+h4 and p not align
+Solution:
+set their padding and margin to the same
+
+
+solution: set both of them to be inline
+
+Problem:
+h2 subheading
+Solution:
+magin top 0
+bottom 2px
+left 0
+right 2px
+
+
+height 18% not respect
+
+how to deal with that?
+
+
+
+
+*/
